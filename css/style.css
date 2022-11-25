@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/img1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar {
+    background-color: rgb(68, 68, 211) !important;
+    border-bottom: 5px solid white;
+}
+
+.h1{
+    color: white !important;
+}
+
+section.formulario{
+    background: transparent;
+    /*background-color: blue;*/
+    width: 500px;
+    height: 600px;
+    /*margin-top: 20px;*/ 
+    margin-left: 100px;
+}
+
+div.contacto {
+    margin-left: 100px;
+    padding-top: 30px;
+    width: 500px;
+}
+
+h2.consulta{
+    color: white;
+    width: max-content;
+    margin-left: 20px;
+}
+
+
+.form {
+    width: 300px;
+    margin-top: 15px;
+    margin-left: 80px;
+    padding: 40px;
+}
+
+label.datos{
+    width: max-content;
+    color: rgb(68, 68, 211);
+    font-weight: bolder;
+    padding: 5px;
+}
+
+input{
+    width: 300px;
+}
+
+input.valor{
+    margin-top: 5px;
+    width: 60px;
+}
+
+.boton{
+    margin-top: 10px;
+    color: white;
+    background-color: rgb(68, 68, 211);
+    border: 1px solid gray;
+    padding: 5px;
+}
