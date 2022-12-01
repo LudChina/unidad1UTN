@@ -48,7 +48,14 @@ h2.consulta{
     padding: 40px;
 }
 
-label.datos{
+label.datos {
+    width: max-content;
+    color: rgb(68, 68, 211);
+    font-weight: bolder;
+    padding: 5px;
+}
+
+div.datos{
     width: max-content;
     color: rgb(68, 68, 211);
     font-weight: bolder;
